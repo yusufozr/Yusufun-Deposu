@@ -6,21 +6,21 @@
 }
 
 body {
-    background-color: #F4D04E;
+    background-color: hsl(47, 88%, 63%);
 }
 
 a {
-    color: #000;
+    color: hsl(0, 0%, 7%);
     text-decoration: none;
 }
 
 #preview-card-container {
     width: 384px;
     height:565px;
-    background-color: #fff;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
-    border: 1px solid black;
-    box-shadow: 8px 8px 8px #000;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 8px hsl(0, 0%, 7%);
     padding: 1.2rem;
      margin: 3rem auto;
 }
@@ -41,7 +41,7 @@ a {
 }
 
 .yellow-bg {
-    background-color: #F4D04E;
+    background-color: hsl(47, 88%, 63%);
     padding: 4px 12px;
     border-radius: 4px;
     width: 90px;
@@ -63,11 +63,11 @@ a {
 }
 
 .blog-post-title:hover {
-    color: #F4D04E;
+    color: hsl(47, 88%, 63%);
 }
 
 .preview-text {
-    color: #7f7f7f;
+    color: hsl(0, 0%, 42%);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
