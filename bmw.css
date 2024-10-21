@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-#preview-card-container {
+#BMW-card-container {
     width: 384px;
     height:565px;
     background-color:white;
@@ -25,22 +25,22 @@ a {
      margin: 3rem auto;
 }
 
-.preview-card-img {
+.BMW-card-img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.preview-card-img img {
+.BMW-card-img img {
     border-radius: 10px;
 }
 
-.preview-card-text {
+.BMW-card-text {
     margin-top: 1.2rem;
     margin-left: 5px;
 }
 
-.yellow-bg {
+.Black-bg {
     background-color:black;
     padding: 4px 12px;
     border-radius: 4px;
@@ -54,7 +54,7 @@ a {
     margin-bottom: 1rem;
 }
 
-.blog-post-title {
+.BMW-post-title {
     font-size: 24px;
     font-weight: 800;
     margin-top: .7rem;
@@ -62,11 +62,11 @@ a {
     transition: color .2s ease-in;
 }
 
-.blog-post-title:hover {
+.BMW-post-title:hover {
     color: black;
 }
 
-.preview-text {
+.BMW-text {
     color: #7f7f7f;
     font-size: 16px;
     font-weight: 500;
@@ -74,11 +74,13 @@ a {
     margin-bottom: 1.5rem;
 }
 
-.blog-post-avatar-container {
+.BMW-post-avatar-container {
     display: flex;
     align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
 }
-.blog-post-avatar-container h4 {
+.BMW-post-avatar-container h4 {
     margin-left: 1rem;
     font-size: 14px;
     font-weight: 800;
